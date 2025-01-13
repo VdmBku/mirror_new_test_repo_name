@@ -1,0 +1,4 @@
+# Documentation
+*.md text eol=crlf
+*.markdown text eol=crlf
+*.txt text eol=crlf
