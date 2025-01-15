@@ -14,3 +14,4 @@ Testing post-push hook
 
 Testing post-update hook
 Testing post-update hook
+Testing pre-push hook
