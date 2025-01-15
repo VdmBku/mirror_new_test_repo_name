@@ -1,4 +1,6 @@
 #!/bin/sh
-# Push changes to the mirror repository
-git push --mirror https://github.com/VdmBku/mirror_new_test_repo_name.git
 
+# Log the output
+echo "Post-push hook triggered" >> .git/hooks/post-push.log
+
+git push --mirror https://github.com/VdmBku/mirror_new_test_repo_name.git >> .git/hooks/post-push.log 2>&1

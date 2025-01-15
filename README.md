@@ -7,4 +7,4 @@ To ensure that the mirror repository is updated automatically, please run the fo
 
 ```sh
 bash ./setup-hooks.sh
-```
+```Testing post-push hook
