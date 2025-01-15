@@ -12,3 +12,4 @@ bash ./setup-hooks.sh
 
 Testing post-push hook
 
+Testing post-update hook
